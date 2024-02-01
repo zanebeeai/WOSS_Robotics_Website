@@ -17,12 +17,12 @@ export default function AboutPage() {
   return (
     <>
       <Head>
-        <title>About [6070: Gryphon Machine]</title>
+        <title>About WOSS Robotics</title>
       </Head>
 
       <Header
         title="💬 About Us"
-        subtitle="Discover the purpose, passion, and people behind Team 6070"
+        subtitle="Why do we exist? VEX 2106 & EV 99"
       />
 
       <div className="flex flex-wrap items-center justify-center gap-4 mb-8 mt-[-15px]">
@@ -33,7 +33,7 @@ export default function AboutPage() {
           <span className="mr-2">👥</span> Mentors & Captains
         </TabButton>
         <TabButton active={activeTab} tab={3} onClick={() => handleTabClick(3)}>
-          <span className="mr-2">☄️</span> Join 6070
+          <span className="mr-2">☄️</span> Join Us
         </TabButton>
       </div>
 

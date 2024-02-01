@@ -1,147 +1,64 @@
 export const Mentors = [
   {
-    name: "Mr. Angelkovski",
+    name: "Mr. Wood",
     img: "/people/angelkovski.png",
-    role: "GFSS"
+    role: "WOSS"
   },
   {
-    name: "Mr. Bertovic",
+    name: "Mr. Brogly",
     img: "/6070-logo.png",
-    role: "GFSS"
+    role: "WOSS"
   },
   {
-    name: "Mrs. Virdi",
+    name: "Mr. Zaidi",
     img: "/people/virdi.png",
-    role: "GFSS",
+    role: "WOSS",
   },
-  {
-    name: "Mr. Mundlur",
-    img: "/people/mundler.png",
-    role: "BEMPRO"
-  }
 ]
 export const Team2024 = [
   {
-    name: "Utkarsh Dubey",
+    name: "Zane Beeai",
     img: "/people/utkarsh.png",
     role: "Head",
   },
   {
-    name: "Armaan Khosla",
+    name: "Shayaan Azeem",
     img: "/people/armaan.png",
     role: "Head",
   },
   {
-    name: "Kevin Xia",
+    name: "Victoria X",
+    img: "/6070-logo.png",
+    role: "VEX Senior",
+  },
+  {
+    name: "Shreyas X",
+    img: "/6070-logo.png",
+    role: "VEX Senior",
+  },
+  {
+    name: "Rohanth X",
+    img: "/6070-logo.png",
+    role: "VEX Junior",
+  },
+  {
+    name: "Gregory Gu",
+    img: "/6070-logo.png",
+    role: "VEX Junior",
+  },
+  {
+    name: "Leo X",
     img: "/6070-logo.png",
     role: "Programming",
   },
   {
-    name: "Kissan Manimaran",
+    name: "Angelo X",
     img: "/6070-logo.png",
-    role: "Programming",
+    role: "VEX Challenges",
   },
   {
-    name: "Aakanksh Panda",
-    img: "/6070-logo.png",
-    role: "Design",
-  },
-  {
-    name: "Sajenie Sivakaran",
-    img: "/6070-logo.png",
-    role: "Build",
-  },
-  {
-    name: "Emerik Cheng",
-    img: "/6070-logo.png",
-    role: "Electrical",
-  },
-  {
-    name: "Valentina Gheorghe",
-    img: "/6070-logo.png",
-    role: "Outreach",
-  },
-  {
-    name: "Tyrus Ha",
-    img: "/6070-logo.png",
-    role: "Logistics",
-  },
-  {
-    name: "Ben Zhou",
-    img: "/6070-logo.png",
-    role: "Finance",
-  },
-  {
-    name: "Tae Eun Ha",
+    name: "Haneen X",
     img: "/6070-logo.png",
     role: "Media",
-  },
-  {
-    name: "Karen Le",
-    img: "/6070-logo.png",
-    role: "Media",
-  },
-    {
-    name: "Advay Chandorkar",
-    img: "/6070-logo.png",
-    role: "Website Manager",
   },
 ];
-
-export const Team2023 = [
-  {
-    name: "Muhammad Awan",
-    img: "/people/muhammed.png",
-    role: "Head",
-  },
-  {
-    name: "Kevin Pogoryelovsky",
-    img: "/people/kevin.png",
-    role: "Head",
-  },
-  {
-    name: "Utkarsh Dubey",
-    img: "/people/utkarsh.png",
-    role: "Vice Head",
-  },
-  {
-    name: "Roozbeh Ali",
-    img: "/people/roozbeh.png",
-    role: "Programming",
-  },
-  {
-    name: "Ankur Boyed",
-    img: "/people/ankur.png",
-    role: "Programming",
-  },
-  {
-    name: "Riya Piryani",
-    img: "/people/riya.png",
-    role: "Programming",
-  },
-  {
-    name: "Armaan Khosla",
-    img: "/people/armaan.png",
-    role: "Design",
-  },
-  {
-    name: "Kelly Vuong",
-    img: "/people/kelly.png",
-    role: "Outreach",
-  },
-  {
-    name: "Manan Oza",
-    img: "/people/manan.png",
-    role: "Outreach",
-  },
-  {
-    name: "Aleena Hasan",
-    img: "/people/aleena.png",
-    role: "Media",
-  },
-  {
-    name: "Amy Sun",
-    img: "/people/amy.png",
-    role: "Media",
-  },];
-

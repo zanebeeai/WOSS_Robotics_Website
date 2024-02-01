@@ -98,25 +98,6 @@ export const CaptainsScreen = () => {
           })}
         </div>
       </div>
-      <div className="border-2 border-gray-600 rounded-lg px-10 py-8">
-        <Title>
-          Captains <span className="font-bold text-gray-400">/ </span>
-          <span className="text-gray-400 font-medium">2022 - 2023</span>
-        </Title>
-
-        <div className="flex flex-col md:grid md:grid-cols-3 gap-5">
-          {Team2023.map((member: TeamMember, key: number) => {
-            return (
-              <Captain
-                key={key}
-                name={member.name}
-                role={member.role}
-                img={member.img}
-              />
-            );
-          })}
-        </div>
-      </div>
     </div>
   );
 };
