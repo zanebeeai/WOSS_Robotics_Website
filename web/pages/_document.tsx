@@ -18,7 +18,7 @@ export default function Document() {
           content="VEX 2106 & EV 843 @ White Oaks Secondary School"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Team 6070" />
+        <meta name="twitter:title" content=WOSS Robotics" />
         <meta
           name="twitter:description"
           content="VEX 2106 & EV 843 @ White Oaks Secondary School"
