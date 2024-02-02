@@ -48,7 +48,7 @@ export default function BuildsPage() {
               <div>
                 <h2 className="font-bold text-gray-300 text-lg">Notable Alumnus 🐱‍🚀</h2>
                 <p className="text-left text-gray-400">
-                "I have to root for my alma mater [{""}
+                &quot;I have to root for my alma mater [{""}
                 <a
                   href="https://wos.hdsb.ca/"
                   className="text-primary hover:text-white"
@@ -61,7 +61,7 @@ export default function BuildsPage() {
               <br></br>and I&apos;ve gone back and spoken several times at
               <br></br>White Oaks so I was pleased to hear that they were
               <br></br>in the competition and of course I&apos;m rooting for
-              <br></br>them it looks like it&apos;s really well built."
+              <br></br>them it looks like it&apos;s really well built.&quot;
 
                 </p>
                 <a
