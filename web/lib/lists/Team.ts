@@ -1,64 +1,64 @@
 export const Mentors = [
   {
     name: "Mr. Wood",
-    img: "/people/angelkovski.png",
+    img: "/yellowWildcatsLogo.png",
     role: "WOSS"
   },
   {
     name: "Mr. Brogly",
-    img: "/6070-logo.png",
+    img: "/yellowWildcatsLogo.png",
     role: "WOSS"
   },
   {
     name: "Mr. Zaidi",
-    img: "/people/virdi.png",
+    img: "/yellowWildcatsLogo.png",
     role: "WOSS",
   },
 ]
 export const Team2024 = [
   {
     name: "Zane Beeai",
-    img: "/people/utkarsh.png",
+    img: "/people/Zane.png",
     role: "Head",
   },
   {
     name: "Shayaan Azeem",
-    img: "/people/armaan.png",
+    img: "/people/Shayaan.jpg",
     role: "Head",
   },
   {
-    name: "Victoria X",
-    img: "/6070-logo.png",
+    name: "Victoria Wang",
+    img: "/yellowWildcatsLogo.png",
     role: "VEX Senior",
   },
   {
-    name: "Shreyas X",
-    img: "/6070-logo.png",
+    name: "Shreyas Nayak",
+    img: "/people/Shreyas.JPG",
     role: "VEX Senior",
   },
   {
-    name: "Rohanth X",
-    img: "/6070-logo.png",
+    name: "Rohanth Marem",
+    img: "/people/Rohanth.jpg",
     role: "VEX Junior",
   },
   {
     name: "Gregory Gu",
-    img: "/6070-logo.png",
+    img: "/yellowWildcatsLogo.png",
     role: "VEX Junior",
   },
   {
     name: "Leo X",
-    img: "/6070-logo.png",
+    img: "/yellowWildcatsLogo.png",
     role: "Programming",
   },
   {
-    name: "Angelo X",
-    img: "/6070-logo.png",
+    name: "Angelo Wei",
+    img: "/people/Angelo.jpg",
     role: "VEX Challenges",
   },
   {
-    name: "Haneen X",
-    img: "/6070-logo.png",
+    name: "Haneen Hassan",
+    img: "/yellowWildcatsLogo.png",
     role: "Media",
   },
 ];

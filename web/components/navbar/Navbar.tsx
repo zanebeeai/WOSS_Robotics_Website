@@ -11,7 +11,7 @@ export const Navbar = (props: Props) => {
   const navbarItems = [
     { title: "About", path: "/about" },
     { title: "History", path: "/history" },
-    { title: "Media", path: "/media" },
+    // { title: "Events", path: "/events" },
     { title: "Sponsors", path: "/sponsors" },
     { title: "Contact Us", path: "/contact" },
   ];

@@ -124,7 +124,7 @@ export const RegisterScreen = () => {
       <div className="border-2 border-gray-600 rounded-lg md:w-[939px] px-10 py-8">
         <h1 className="md:text-4xl text-3xl font-bold text-left mb-5">
           <span className="text-gray-400">
-            Interested in joining <span className="text-primary">Electrathon 99?</span>{" "}
+            Interested in joining <span className="text-primary">EV 843?</span>{" "}
             (2023-24)
           </span>
         </h1>
@@ -137,7 +137,7 @@ export const RegisterScreen = () => {
               pay and register (including signing safety forms), by the due date
               that would be determined and informed to you (TBD).
               <br /> <br />→ Registration Fee: <b> ($25)</b>
-              <br /> <br />→ All payments for Electrathon are made via SchoolCash Online.
+              <br /> <br />→ All payments for the EV Race Team are made via SchoolCash Online.
             </p>
           </div>
 

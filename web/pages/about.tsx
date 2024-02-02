@@ -22,7 +22,7 @@ export default function AboutPage() {
 
       <Header
         title="💬 About Us"
-        subtitle="Why do we exist? VEX 2106 & EV 99"
+        subtitle="Why do we exist? VEX 2106 & EV 843"
       />
 
       <div className="flex flex-wrap items-center justify-center gap-4 mb-8 mt-[-15px]">

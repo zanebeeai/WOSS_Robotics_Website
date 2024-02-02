@@ -94,7 +94,7 @@ export default function Home() {
                 </div>
 
                 <div className="text-white font-black text-8xl md:text-[100px] text-center"> {/* Centered text */}
-                  WE ARE <a href="https://frc-events.firstinspires.org/team/6070" target="_blank">
+                  WE ARE <a href="https://www.thebluealliance.com/team/843" target="_blank">
                     <span className="text-primary">WILDCATS.</span>
                   </a>
                 </div>

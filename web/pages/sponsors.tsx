@@ -20,126 +20,74 @@ interface SponsorTier {
 }
 
 const sponsorData = [
-  {
-    tier: "Title",
-    colour: "text-[#E5E4E2]",
-    amount: "$5000+",
-    sponsors: [
-      {
-        name: "Erin Mills Mazda",
-        logo: "/sponsors/mazda.png",
-        link: "https://erinmillsmazda.ca",
-        width: 250,
-        height: 100,
-      }
-    ]
-  },
-  {
-
-    tier: "Diamond",
-    colour: "text-[#B9F2FF]",
-    amount: "$2500+",
-    sponsors: [
-      {
-        name: "Glenforest",
-        logo: "/sponsors/glenforest.png",
-        link: "https://glenforest.peelschools.org",
-        width: 150,
-        height: 100,
-      },
-      {
-        name: "Genius Tools",
-        logo: "/sponsors/genius-tools.png",
-        link: "https://www.geniustools.net/",
-        width: 320,
-        height: 320,
-      },
-    ],
-  },
+  // {
+  //
+  //   tier: "Diamond",
+  //   colour: "text-[#B9F2FF]",
+  //   amount: "$1000+",
+  //   sponsors: [
+  //     {
+  //       name: "Glenforest",
+  //       logo: "/sponsors/glenforest.png",
+  //       link: "https://glenforest.peelschools.org",
+  //       width: 150,
+  //       height: 100,
+  //     },
+  //     {
+  //       name: "Genius Tools",
+  //       logo: "/sponsors/genius-tools.png",
+  //       link: "https://www.geniustools.net/",
+  //       width: 320,
+  //       height: 320,
+  //     },
+  //   ],
+  // },
   {
     tier: "Gold",
     colour: "text-[#FFD700]",
-    amount: "$1000-$2500",
+    amount: "$500-$1000",
     sponsors: [
       {
-        name: "Quality Inn",
-        logo: "/sponsors/quality-inn.png",
-        link: "https://www.choicehotels.com/en-ca/quality-inn",
+        name: "CodeNinjas",
+        logo: "/sponsors/code-ninjas.png",
+        link: "https://www.codeninjas.com",
         width: 350,
-        height: 300,
+        height: 150,
       },
-      {
-        name: "Gene Haas Foundation",
-        logo: "/sponsors/gene-haas.webp",
-        link: "https://ghaasfoundation.org/content/ghf/en/home.html",
-        width: 175,
-        height: 175,
-      },
-      {
-        name: "Bempro",
-        logo: "/sponsors/bempro.png",
-        link: "https://www.bempro.com",
-        width: 400,
-        height: 400,
-      },
-      {
-        name: "RBC",
-        logo: "/sponsors/rbc.png",
-        link: "https://www.rbcroyalbank.com",
-        width: 100,
-        height: 100,
-      },
-      {
-        name: "Nye Manufacturing",
-        logo: "/sponsors/nye.png",
-        link: "https://nyemanufacturing.com",
-        width: 175,
-        height: 175,
-      },
+
     ],
+  },
+  {
+    tier: "Silver",
+    colour: "text-[#C0C0C0]",
+    amount: "$250-$500",
+    sponsors: [
+
+    ]
   },
   {
     tier: "Bronze",
     colour: "text-[#CD7F32]",
-    amount: "Up to $1000",
+    amount: "Up to $250",
     sponsors: [
       {
-        name: "Gap Wireless",
-        logo: "/sponsors/gap-wireless.png",
-        link: "https://gapwireless.com",
+        name: "HackClub",
+        logo: "/sponsors/hack-club.png",
+        link: "https://www.hackclub.com",
         width: 250,
         height: 250,
       },
       {
-        name: "Princess Auto",
-        logo: "/sponsors/princess-auto.png",
-        link: "https://www.princessauto.com/",
+        name: "Github",
+        logo: "/sponsors/github.png",
+        link: "https://www.github.com/",
         width: 200,
         height: 200,
       },
-      {
-        name: "Zafin",
-        logo: "/sponsors/zafin.png",
-        link: "https://zafin.com",
-        width: 225,
-        height: 225,
-      },
-      {
-        name: "Koojo Custom Power Coating",
-        logo: "/sponsors/koojo.png",
-        link: "https://www.facebook.com/p/Koojo-CustomPowderCoating-100054628891519/",
-        width: 150,
-        height: 150,
-      },
-      {
-        name: "Agile Manufacturing",
-        logo: "/sponsors/agile.png",
-        link: "https://agile-manufacturing.com/",
-        width: 350,
-        height: 350,
-      },
+
     ],
   },
+
 ];
 
 const SponsorTier = ({ tier, colour, amount, sponsors }: SponsorTier) => (
@@ -180,7 +128,7 @@ const SponsorsPage = () => {
       {isClient && (
         <>
           <Head>
-            <title>Sponsors [6070: Gryphon Machine]</title>
+            <title>Sponsors @ WOSS Robotics</title>
           </Head>
           <Header
             title="💸 Our Sponsors"
@@ -190,7 +138,7 @@ const SponsorsPage = () => {
                 to sponsor us? Check out our{" "}
                 <a
                   onClick={() =>
-                    window.open("/6070_SponsorshipPackage-2024.pdf")
+                    window.open("/SponsorshipPackage.pdf")
                   }
                   download
                   className="text-primary text-white hover:text-primary font-bold cursor-pointer"
