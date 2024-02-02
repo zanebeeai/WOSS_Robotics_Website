@@ -6,22 +6,22 @@ export default function Document() {
       <Head>
         <meta
           name="description"
-          content="Team FRC 6070 from Glenforest Secondary School"
+          content="VEX 2106 & EV 843 @ White Oaks Secondary School"
         />
         <meta
           name="keywords"
-          content="frc,robotics,6070,mississauga,ontario,peel,pdsb"
+          content="vex,electrathon,electric vehicle,robotics,2106,843,oakville,ontario,halton,hdsb"
         />
-        <meta name="og:title" content="Team 6070" />
+        <meta name="og:title" content="WOSS Robotics" />
         <meta
           name="og:description"
-          content="Team FRC 6070 from Glenforest Secondary School"
+          content="VEX 2106 & EV 843 @ White Oaks Secondary School"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Team 6070" />
         <meta
           name="twitter:description"
-          content="Team FRC 6070 from Glenforest Secondary School"
+          content="VEX 2106 & EV 843 @ White Oaks Secondary School"
         />
         <meta name="twitter:image" content="/meta-img.png" />
         <meta name="theme-color" content="#FBBB04" />
