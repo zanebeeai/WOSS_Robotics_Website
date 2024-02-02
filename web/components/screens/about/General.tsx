@@ -31,25 +31,10 @@ export const AboutCard = (props: Props) => {
 export const GeneralScreen = () => {
   return (
     <div className="border-2 border-gray-600 rounded-lg md:w-[939px] px-10 py-8">
-      <div className="flex flex-col md:grid md:grid-cols-3 gap-5 mb-10">
-        <a href="https://github.com/gryphonmachine" target="_blank">
-          <AboutCard title="Learn." bg="/team-pics/IMG_3793.jpg" />
-        </a>
-        <Link href="/events" legacyBehavior>
-          <a>
-            <AboutCard title="Share." bg="/events/IMG_6087.JPG" />
-          </a>
-        </Link>
-        <Link href="/builds" legacyBehavior>
-          <a>
-            <AboutCard title="Compete." bg="/season/6070-charged-up.png" />
-          </a>
-        </Link>
-      </div>
 
       <h1 className="md:text-4xl text-3xl font-bold text-left mb-5">
         <span className="text-gray-400">
-          We are team <span className="text-primary">6070</span> 🦁 🦅
+          We are <span className="text-primary">WOSS Robotics</span> 🐯
         </span>
       </h1>
 
@@ -57,33 +42,28 @@ export const GeneralScreen = () => {
         <div>
           <h2 className="font-bold text-gray-300 text-lg">About Us</h2>
           <p className="text-left text-gray-400">
-            Hi there, welcome to our site! We&apos;re Team 6070 (A.K.A Gryphon
-            Machine) from{" "}
+            Hi there, welcome to our site! We are a VEX Robotics and EV Race team from {" "}
             <a
-              href="https://glenforest.peelschools.org/"
+              href="https://wos.hdsb.ca/"
               className="text-primary hover:text-white"
               target="_blank"
             >
-              Glenforest Secondary School in Mississauga, ON, Canada 🇨🇦 
+              White Oaks Secondary School in Oakville, ON, Canada 🇨🇦
             </a>
-            ! We&apos;re a team of passionate and dedicated students who love
-            everything about Robotics.
+            ! We&apos;re a team of passionate students who love
+            everything about Robotics & Engineering.
             <br />
             <br />
-            Our team has been competing in the FIRST Robotics Competition (FRC)
-            for several years now and we&apos;ve gained a reputation for being a
-            fierce competitor on the field. But more than that, we&apos;re a
-            tight-knit community of individuals who share a common love for STEM
-            and the spirit of gracious professionalism.{" "}
+            Our VEX team has been competing since 2022,
+            and our newly established Electric Vehicle team has been working hard since 2023 to compete in May 2025. {" "}
           </p>
         </div>
 
         <div>
           <h2 className="font-bold text-gray-300 text-lg">Our Mission</h2>
           <p className="text-left text-gray-400">
-            To inspire, empower, and spread the message of FIRST within
-            ourselves and our community, while also raising awareness for
-            Robotics, Engineering, and the STEM fields.
+            Some cool, arguably even very cool, or astonishingly amazing mission statement
+            would look really good right around here!
           </p>
         </div>
       </div>
