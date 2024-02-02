@@ -15,8 +15,8 @@ export default function BuildsPage() {
       </Head>
 
       <Header
-        title="📔 Our Team's History"
-        subtitle="We've been around a lot of longer than 2022."
+        title="📔 Our Team&apos;s History"
+        subtitle="We&apos;ve been around a lot of longer than 2022."
       />
       <div className="flex items-center justify-center pr-5 pl-5">
         <div className="flex flex-col space-y-10">
@@ -57,11 +57,11 @@ export default function BuildsPage() {
                 White Oaks
                 </a>
               ]
-              <br></br> and that's the high school that that I went to...
-              <br></br>and I've gone back and spoken several times at
+              <br></br> and that&apos;s the high school that that I went to...
+              <br></br>and I&apos;ve gone back and spoken several times at
               <br></br>White Oaks so I was pleased to hear that they were
-              <br></br>in the competition and of course I'm rooting for
-              <br></br>them it looks like it's really well built."
+              <br></br>in the competition and of course I&apos;m rooting for
+              <br></br>them it looks like it&apos;s really well built."
 
                 </p>
                 <a
