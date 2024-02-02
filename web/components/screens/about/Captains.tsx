@@ -1,4 +1,4 @@
-import { Mentors, Team2023, Team2024 } from "@/lib/lists/Team";
+import { Mentors, Team2024 } from "@/lib/lists/Team";
 import { Title } from "../../Title";
 import Image from "next/image";
 
