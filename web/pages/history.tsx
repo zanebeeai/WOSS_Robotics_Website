@@ -40,7 +40,7 @@ export default function BuildsPage() {
               src="/chrisHatfield.png"
               height="850"
               width="500"
-              alt="Chris Hatfield"
+              alt="Chris Hadfield"
               priority={true}
             />
 
@@ -69,7 +69,7 @@ export default function BuildsPage() {
                   className="text-primary hover:text-white"
                   target="_blank"
                 >
-                -Chris Hatfield, 2006
+                -Chris Hadfield, 2006
                 </a>
 
             </div>
