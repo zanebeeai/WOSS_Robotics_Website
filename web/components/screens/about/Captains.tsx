@@ -53,7 +53,7 @@ export const CaptainsScreen = () => {
       <div className="border-2 border-gray-600 rounded-lg px-10 py-8 justify-center items-center flex">
         <Image
           className="rounded-lg"
-          src="/team-pics/team.jpg"
+          src="/team-pics/team.png"
           height="850"
           width="850"
           alt="Tournament Team Photo"

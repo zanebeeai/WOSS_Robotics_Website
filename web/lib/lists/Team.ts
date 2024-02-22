@@ -23,7 +23,7 @@ export const Team2024 = [
   },
   {
     name: "Shayaan Azeem",
-    img: "/people/Shayaan.jpg",
+    img: "/people/Shayaan.png",
     role: "Head",
   },
   {
@@ -33,12 +33,12 @@ export const Team2024 = [
   },
   {
     name: "Shreyas Nayak",
-    img: "/people/Shreyas.JPG",
+    img: "/people/Shreyas.png",
     role: "VEX Senior",
   },
   {
     name: "Rohanth Marem",
-    img: "/people/Rohanth.jpg",
+    img: "/people/Rohanth.png",
     role: "VEX Junior",
   },
   {

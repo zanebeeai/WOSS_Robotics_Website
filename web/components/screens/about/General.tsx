@@ -62,8 +62,7 @@ export const GeneralScreen = () => {
         <div>
           <h2 className="font-bold text-gray-300 text-lg">Our Mission</h2>
           <p className="text-left text-gray-400">
-            Some cool, arguably even very cool, or astonishingly amazing mission statement
-            would look really good right around here!
+            We aim to restore the Wildcats to our former robotic glory! 🤖
           </p>
         </div>
       </div>
