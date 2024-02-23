@@ -53,7 +53,7 @@ export const Team2024 = [
   },
   {
     name: "Angelo Wei",
-    img: "/people/Angelo.jpg",
+    img: "/people/Angelo.png",
     role: "VEX Challenges",
   },
   {
