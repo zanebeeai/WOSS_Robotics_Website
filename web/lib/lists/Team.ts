@@ -47,7 +47,7 @@ export const Team2024 = [
     role: "VEX Junior",
   },
   {
-    name: "Leo X",
+    name: "Leo Abou-Saleh",
     img: "/yellowWildcatsLogo.png",
     role: "Programming",
   },
