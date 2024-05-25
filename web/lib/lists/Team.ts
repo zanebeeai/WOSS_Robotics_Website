@@ -2,18 +2,13 @@ export const Mentors = [
   {
     name: "Mr. Wood",
     img: "/yellowWildcatsLogo.png",
-    role: "WOSS"
+    role: "Robotics"
   },
   {
     name: "Mr. Post",
     img: "/yellowWildcatsLogo.png",
-    role: "WOSS"
+    role: "Electrathon"
   },
-  // {
-  //   name: "Mr. Zaidi",
-  //   img: "/yellowWildcatsLogo.png",
-  //   role: "WOSS",
-  // },
 ]
 export const Team2024 = [
   {
@@ -26,8 +21,10 @@ export const Team2024 = [
     img: "/people/Shayaan.png",
     role: "Head",
   },
+
+
   {
-    name: "Kenny Shi",
+    name: "Victoria Wang",
     img: "/yellowWildcatsLogo.png",
     role: "VEX Senior",
   },
@@ -37,29 +34,33 @@ export const Team2024 = [
     role: "VEX Senior",
   },
   {
+    name: "Kenny Shi",
+    img: "/yellowWildcatsLogo.png",
+    role: "VEX Senior",
+  },
+
+
+  {
+    name: "Linqi Liu",
+    img: "/Linqi.png",
+    role: "VEX Junior",
+  },
+  {
     name: "Rohanth Marem",
     img: "/people/Rohanth.png",
     role: "VEX Junior",
   },
   {
-    name: "Linqi Liu",
+    name: "Gregory Gu",
     img: "/yellowWildcatsLogo.png",
     role: "VEX Junior",
   },
+
+
   {
-    name: "Victoria Wang",
+    name: "Bianca Bian",
     img: "/yellowWildcatsLogo.png",
-    role: "Programming",
-  },
-  {
-    name: "Angelo Wei",
-    img: "/people/Angelo.png",
-    role: "VEX Challenges",
-  },
-  {
-    name: "Vidyuth Kripashanakar",
-    img: "/yellowWildcatsLogo.png",
-    role: "VEX Challenges",
+    role: "Media",
   },
   {
     name: "Anya Huang",
@@ -67,13 +68,20 @@ export const Team2024 = [
     role: "Outreach",
   },
   {
-    name: "Bianca Bian",
-    img: "/yellowWildcatsLogo.png",
-    role: "Media",
-  },
-  {
     name: "Kanwar Jhattu",
     img: "/yellowWildcatsLogo.png",
     role: "Media",
+  },
+
+
+  {
+    name: "Angelo Wei",
+    img: "/people/Angelo.png",
+    role: "VEX Challenges",
+  },
+  {
+    name: "Vidyuth Kripashankar",
+    img: "/yellowWildcatsLogo.png",
+    role: "VEX Challenges",
   },
 ];

@@ -5,7 +5,7 @@ import Image from "next/image";
 interface Props {
   img: string;
   name: string;
-  role: string
+  role: string;
 }
 
 interface TeamMember {
@@ -23,7 +23,7 @@ const Captain = (props: Props) => {
         height="350"
         width="350"
         priority={true}
-        className="h-12 w-12 mr-5 rounded-full"
+        className="h-12 w-12 mr-5 rounded-full object-cover"
       />
       <div>
         <h1 className="font-bold text-md text-white">{props.name}</h1>
@@ -81,21 +81,21 @@ export const CaptainsScreen = () => {
         <Title>
           Captains <span className="font-bold text-gray-400">/ </span>
           <span className="text-gray-400 font-medium">
-            Current Leadership (2023-2024)
+            Current Leadership (2024-2025)
           </span>
         </Title>
 
-        <div className="flex flex-col md:grid md:grid-cols-3 gap-5">
-          {Team2024.map((member: TeamMember, key: number) => {
-            return (
-              <Captain
-                key={key}
-                name={member.name}
-                role={member.role}
-                img={member.img}
-              />
-            );
-          })}
+        <div className="flex flex-col items-center space-y-5">
+          <div className="grid grid-cols-2 gap-5">
+            {Team2024.slice(0, 2).map((member: TeamMember, key: number) => (
+              <Captain key={key} name={member.name} role={member.role} img={member.img} />
+            ))}
+          </div>
+          <div className="grid grid-cols-3 gap-5">
+            {Team2024.slice(2).map((member: TeamMember, key: number) => (
+              <Captain key={key} name={member.name} role={member.role} img={member.img} />
+            ))}
+          </div>
         </div>
       </div>
     </div>
